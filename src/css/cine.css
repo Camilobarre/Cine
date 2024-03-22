@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root {
     --azul-oscuro: #112e3e;
@@ -8,6 +8,7 @@
     --azul-medio: #0a8a9f;
     --azul-medio-clarito: #06d1dc;
     --azul-clarito: #0ffff8;
+    --blanco-humo: #f5f5f5;
 }
 
 * {
@@ -18,10 +19,79 @@
 }
 
 .header {
-    background-color: var(--azul-medio);
+    background-color: var(--azul-oscuro);
     color: var(--blanco);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 20px 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.Estrenos {
+    background-color: var(--blanco-humo);
+    padding: 10px 0px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+figure.Pelicula {
+    width: 24%;
+    padding: 4px;
+    border-width: 3px;
+}
+
+.figure-Pelicula {
+    border-radius: 20%;
+    align-items: center;
+}
+
+.Cartelera {
+    background-color: var(--blanco-humo);
+    padding: 10px 5px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.label nombre{
+    border: var(--azul-oscuro);
+}
+
+.Titulos {
+    text-align: center;
+}
+
+.nombre{
+    border:1px solid black;
+}
+
+.correo{
+    border:1px solid black;
+}
+
+.comentarios{
+    border:1px solid black;
 }
