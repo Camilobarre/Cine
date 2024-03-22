@@ -4,3 +4,15 @@
 .color4 {color: #06d1dc;}
 .color5 {color: #0ffff8;}
 
+:root{
+    --azul-oscuro:#112e3e;
+    --blanco:#FFFFFF;
+}
+
+.header{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
