@@ -1,23 +1,27 @@
-:root{
-    --azul-oscuro:#112e3e;
-    --blanco:#FFFFFF;
-    --azul-medio-oscuro:#0d5469;
-    --azul-medio:#0a8a9f;
-    --azul-medio-clarito:#06d1dc;
-    --azul-clarito:#0ffff8;
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+
+
+:root {
+    --azul-oscuro: #112e3e;
+    --blanco: #FFFFFF;
+    --azul-medio-oscuro: #0d5469;
+    --azul-medio: #0a8a9f;
+    --azul-medio-clarito: #06d1dc;
+    --azul-clarito: #0ffff8;
 }
 
-*{
+* {
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
+    font-family: "Diplomata", serif;
 }
 
-.header{
+.header {
     background-color: var(--azul-medio);
     color: var(--blanco);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
+    padding: 5px 10px;
 }
